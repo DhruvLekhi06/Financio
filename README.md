@@ -26,10 +26,3 @@ Financio is a lightweight fintech product designed to help users track, visualiz
 - **Other Tools:** Agile product management workflows, Git for version control  
 
 
-
-
-# Install dependencies
-npm install  
-
-# Start development server
-npm run dev  
