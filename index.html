@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinancioAI</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              plex: ['IBM Plex Sans', 'sans-serif'],
+            },
+            colors: {
+              'primary': {
+                '50': '#f8fafc',
+                '100': '#f1f5f9',
+                '200': '#e2e8f0',
+                '300': '#cbd5e1',
+                '400': '#94a3b8',
+                '500': '#64748b',
+                '600': '#475569',
+                '700': '#334155',
+                '800': '#1e293b',
+                '900': '#0f172a',
+                '950': '#020617'
+              },
+              'secondary': {
+                '50': '#eff6ff',
+                '100': '#dbeafe',
+                '200': '#bfdbfe',
+                '300': '#93c5fd',
+                '400': '#60a5fa',
+                '500': '#3b82f6',
+                '600': '#2563eb',
+                '700': '#1d4ed8',
+                '800': '#1e40af',
+                '900': '#1e3a8a',
+                '950': '#172554'
+              },
+              'orange': {
+                '400': '#fb923c',
+                '500': '#f97316',
+                '600': '#ea580c',
+              },
+              'off-white': '#F5F7FA',
+              'dark-purple': '#2B2B3E',
+              'status-completed': '#D1FAE5',
+              'status-completed-text': '#065F46',
+              'status-upcoming': '#E5E7EB',
+              'status-upcoming-text': '#4B5563',
+              'status-rejected': '#FEE2E2',
+              'status-rejected-text': '#991B1B',
+              'icon-teal': '#14B8A6',
+              'icon-pink': '#EC4899',
+              'icon-purple': '#8B5CF6',
+              'icon-blue': '#60A5FA',
+              'icon-orange': '#F97316',
+              'icon-indigo': '#6366F1',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.17.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.12",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.8.2",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.1.2",
+    "@netlify/functions": "https://aistudiocdn.com/@netlify/functions@^4.2.5"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-off-white dark:bg-black antialiased text-gray-800 dark:text-gray-200">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
