@@ -25,16 +25,8 @@ Financio is a lightweight fintech product designed to help users track, visualiz
 - **Backend:** Node.js, REST APIs  
 - **Other Tools:** Agile product management workflows, Git for version control  
 
----
 
-## 📦 Installation  
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/financio.git  
-
-# Navigate into the folder
-cd financio  
 
 # Install dependencies
 npm install  
